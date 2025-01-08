@@ -1,0 +1,34 @@
+01/100day study Linux 
+
+Comecei a estudar sobre Linux e duas distribuições, atualmente Kali.
+
+Uso em uma VM, aprendi sobre a configuração, como baixar a ISO e os comando básicos
+
+ls -la  # Mostra detalhes e arquivos ocultos
+cd /path/diretorio  # Acessa um diretório
+cd ..               # Volta um nível
+cd ~                # Vai para o diretório do usuário
+pwd                 # Mostra diretório atual
+
+mkdir nome_do_diretorio    # Cria um nov diretório 
+
+rm arquivo.txt          # Remove arquivo
+rm -r nome_diretorio/   # Remove diretório com todos os arquivos dentro
+
+cp arquivo.txt destino/
+
+mv arquivo.txt novo_nome.txt
+mv arquivo.txt destino/
+
+Manipulação de Arquivos
+
+cat 
+
+arquivo.txt             # exibe conteúdo do arquivo
+nano arquivo.txt        # Editor de texto no terminal
+
+
+Treinei os comandos  criando pastas/diretorios, movendo, excluindo e editando arquvios.
+
+
+
