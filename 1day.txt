@@ -1,34 +1,28 @@
-01/100day study Linux 
 
-Comecei a estudar sobre Linux e duas distribuições, atualmente Kali.
+01/100day Linux Study
 
-Uso em uma VM, aprendi sobre a configuração, como baixar a ISO e os comando básicos
+I started studying Linux and two distributions, currently Kali.
 
-ls -la  # Mostra detalhes e arquivos ocultos
-cd /path/diretorio  # Acessa um diretório
-cd ..               # Volta um nível
-cd ~                # Vai para o diretório do usuário
-pwd                 # Mostra diretório atual
+I use it on a VM, and I’ve learned about configuration, downloading the ISO, and basic commands:
 
-mkdir nome_do_diretorio    # Cria um nov diretório 
+    Basic Commands
+ls -la: Displays details and hidden files.
+cd /path/directory: Accesses a directory.
+cd ..: Goes up one level.
+cd ~: Moves to the user's home directory.
+pwd: Shows the current directory.
 
-rm arquivo.txt          # Remove arquivo
-rm -r nome_diretorio/   # Remove diretório com todos os arquivos dentro
+    File and Directory Management
+mkdir directory_name: Creates a new directory.
+rm file.txt: Deletes a file.
+rm -r directory_name/: Deletes a directory along with its contents.
+cp file.txt destination/: Copies a file to the destination.
+mv file.txt new_name.txt: Renames a file.
+mv file.txt destination/: Moves a file to a directory.
 
-cp arquivo.txt destino/
-
-mv arquivo.txt novo_nome.txt
-mv arquivo.txt destino/
-
-Manipulação de Arquivos
-
-cat 
-
-arquivo.txt             # exibe conteúdo do arquivo
-nano arquivo.txt        # Editor de texto no terminal
+    File Manipulation
+cat file.txt: Displays the content of a file.
+nano file.txt: Opens a text editor in the terminal.
 
 
-Treinei os comandos  criando pastas/diretorios, movendo, excluindo e editando arquvios.
-
-
-
+I practiced these commands by creating folders/directories, moving, deleting, and editing files
